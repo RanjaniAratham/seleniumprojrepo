@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-27T12:39:09 IST" name="Suite" finished-at="2023-12-27T12:39:39 IST" duration-ms="29736">
+    <groups>
+    </groups>
+    <test started-at="2023-12-27T12:39:09 IST" name="Test" finished-at="2023-12-27T12:39:39 IST" duration-ms="29736">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="lauchbrowser()[pri:0, instance:tests.LoginTest@3e27ba32]" started-at="2023-12-27T12:39:09 IST" name="lauchbrowser" finished-at="2023-12-27T12:39:16 IST" duration-ms="7082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchbrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3e27ba32]" started-at="2023-12-27T12:39:16 IST" name="login" data-provider="getLoginData" finished-at="2023-12-27T12:39:21 IST" duration-ms="4597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ranjanapushpa1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aradhana18#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3e27ba32]" started-at="2023-12-27T12:39:21 IST" name="tearDown" finished-at="2023-12-27T12:39:21 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lauchbrowser()[pri:0, instance:tests.LoginTest@3e27ba32]" started-at="2023-12-27T12:39:21 IST" name="lauchbrowser" finished-at="2023-12-27T12:39:24 IST" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchbrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3e27ba32]" started-at="2023-12-27T12:39:24 IST" name="login" data-provider="getLoginData" finished-at="2023-12-27T12:39:38 IST" duration-ms="14380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3e27ba32]" started-at="2023-12-27T12:39:38 IST" name="tearDown" finished-at="2023-12-27T12:39:39 IST" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.FourTest">
+        <test-method signature="FourTest()[pri:0, instance:tests.FourTest@48bb62]" started-at="2023-12-27T12:39:39 IST" name="FourTest" finished-at="2023-12-27T12:39:39 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourTest -->
+      </class> <!-- tests.FourTest -->
+      <class name="tests.ThreeTest">
+        <test-method signature="ThreeTest()[pri:0, instance:tests.ThreeTest@5032714f]" started-at="2023-12-27T12:39:39 IST" name="ThreeTest" finished-at="2023-12-27T12:39:39 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThreeTest -->
+      </class> <!-- tests.ThreeTest -->
+      <class name="tests.TwoTest">
+        <test-method signature="TwoTest()[pri:0, instance:tests.TwoTest@5524cca1]" started-at="2023-12-27T12:39:39 IST" name="TwoTest" finished-at="2023-12-27T12:39:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TwoTest -->
+      </class> <!-- tests.TwoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
